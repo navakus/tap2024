@@ -204,49 +204,9 @@
             data() {
             return {
              user:JSON.parse(localStorage.getItem("userInfo")),
-             applications:[]
             }
             },
-            methods:{
-                async  getApplications(){
-                var email=JSON.parse(localStorage.getItem("userInfo")).email
-                         try {
-            await fetch("http://localhost:5004//getapplications/"+ email)
-              .then((response) => {
-                if (!response.ok) {
-                  if(response.status==404){
-                    throw Error("No application found!");
-                  }
-                  else{
-                    throw Error("Bad request")
-                  }
-                  
-                }
-                return response.json();
-              })
-              .then((data) => {
-                console.log(data);
-                var app=[]
-                if (data.code == 200) {
-                 for(var x=0; x<data.data.apps.length;x++){
-                    console.log(data.data.apps[x].jobid)
-                    if(data.data.apps[x].jobid==1){this.applications.push('Digital Marketer')}
-                    else{
-                        this.applications.push('UX Designer')
-                    }
-                 }
-                }
-              })
-              .catch((error) => {
-                alert(error.toString())
-              });
-          } catch (error) {
-            console.log(error.toString())
-          }}
-            },
-            created() {
-    this.getApplications();
-  },
+           
         }).mount('#app')
 </script>
         
