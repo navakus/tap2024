@@ -50,3 +50,12 @@ Password: 123 <br/>
 
 ### References
 This demo was build with code from myinfo-demo-app from Singpass and using template from https://themewagon.com/themes/free-bootstrap-4-html5-job-portal-website-template-jobfinderportal/
+
+### Documentation
+Problem Statment, proposed solution, storyboard, architecture diagram : https://docs.google.com/document/d/1-KNSChEfpodcV0lGfCK5b5eqzbxSnJ9dva10M3FLJtw/edit?usp=sharing   
+<br/>
+Userflow : https://docs.google.com/presentation/d/10ndMiIcZXtY9AbPwGBdxP_CgjXtLV43ksj6Wu2vxb3M/edit?usp=sharing  
+<br/>
+
+
+
