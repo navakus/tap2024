@@ -43,7 +43,7 @@ Go to http://13.229.79.137:3001/
 
 * Registering with singpass currently not working online (working on localhost)!!!!!!! Please login with user below
 
-Login with predfined user: <br/>
+Login with predefined user: <br/>
 Email: myinfotesting@gmail.com <br/>
 Password: 123 <br/>
 
