@@ -41,7 +41,7 @@ http://localhost:3001
 
 Go to http://13.229.79.137:3001/
 
-* Registering with singpass currently not working online!!!!!!! Please login with user below
+* Registering with singpass currently not working online (working on localhost)!!!!!!! Please login with user below
 
 Login with predfined user: <br/>
 Email: myinfotesting@gmail.com <br/>
