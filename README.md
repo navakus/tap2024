@@ -43,9 +43,9 @@ Go to http://13.229.79.137:3001/
 
 * Registering with singpass currently not working online
 
-Login with predfined user:
-Email: myinfotesting@gmail.com
-Password: 123
+Login with predfined user: <br/>
+Email: myinfotesting@gmail.com <br/>
+Password: 123 <br/>
 
 
 ### References
